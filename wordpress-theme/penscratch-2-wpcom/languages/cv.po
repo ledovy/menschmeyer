@@ -1,0 +1,217 @@
+# Translation of WordPress.com - Themes - Penscratch-2 in Chuvash
+# This file is distributed under the same license as the WordPress.com - Themes - Penscratch-2 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-09 01:23:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: cv_RU\n"
+"Project-Id-Version: WordPress.com - Themes - Penscratch-2\n"
+
+#: functions.php:104
+msgid "White"
+msgstr "Шурă"
+
+#: inc/template-tags.php:33
+msgid "<span class=\"posted-on\">%1$s</span><span class=\"byline\">%2$s</span>"
+msgstr "<span class=\"posted-on\">%1$s</span><span class=\"byline\">%2$s</span>"
+
+#: inc/wpcom-colors.php:70
+msgid "Red"
+msgstr "Хĕрлĕ"
+
+#: inc/wpcom-colors.php:65
+msgid "Teal"
+msgstr "Бирюза"
+
+#: inc/wpcom-colors.php:60
+msgid "Purple"
+msgstr "Хĕрхĕлтĕм"
+
+#: functions.php:84 inc/wpcom-colors.php:55
+msgid "Dark Green"
+msgstr "Тĕксĕм Симĕс"
+
+#: inc/wpcom-colors.php:45
+msgid "Blue & Red"
+msgstr "Хĕрлĕпе Кăвак"
+
+#: inc/wpcom-colors.php:50
+msgid "Dark Blue"
+msgstr "Тĕксĕм Кăвак"
+
+#: inc/wpcom-colors.php:24
+msgid "Links"
+msgstr "Каçăсем"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/penscratch-2/templates/full-width-page.php
+msgid "Full Width, No Sidebar"
+msgstr "Пĕтĕм сарлакăшĕпех, Çум панельсĕр"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/penscratch-2/style.css
+msgid "A clean, responsive writing theme with support for custom logos, featured images, fancy pull quotes, and more."
+msgstr "Таса, çырасси валли респонсивлă темă, хăйевĕрлетнĕ лого, ятарлă ÿкерчĕксем, чаплă цитатăлу тата ыттине те поддержкăлать."
+
+#: single.php:17
+msgid "Next &rsaquo;"
+msgstr "Хыççăнхи &laquo;"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "%s валли Шырав результачĕсем"
+
+#: single.php:17
+msgid "&lsaquo; Previous"
+msgstr "&laquo; Унчченхи"
+
+#: inc/template-tags.php:21
+msgid "Featured"
+msgstr "Ятарлăн сĕннĕ"
+
+#: header.php:44
+msgid "Menu"
+msgstr "Меню"
+
+#. translators: %s: Name of current post
+#: inc/extras.php:39
+msgid "Continue reading %s"
+msgstr "%s малалла вулас"
+
+#: header.php:21
+msgid "Skip to content"
+msgstr "Тÿрех контент патне сиксе каç"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Roboto Slab, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:220
+msgctxt "Roboto Slab font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:151
+msgid "Footer 1"
+msgstr "Подвал 1"
+
+#: functions.php:159
+msgid "Footer 2"
+msgstr "Подвал 2"
+
+#: functions.php:167
+msgid "Footer 3"
+msgstr "Подвал 3"
+
+#: functions.php:143
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#: functions.php:47
+msgid "Header"
+msgstr "Заголовок"
+
+#: footer.php:40
+msgid "Theme: %1$s by %2$s."
+msgstr "Стиль: %1$s by %2$s."
+
+#: footer.php:38
+msgid "Proudly powered by %s"
+msgstr "%s пулăшнипе ĕçлет"
+
+#: footer.php:38
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content.php:21
+msgid "1 Comment"
+msgstr "Комментари"
+
+#: content.php:21
+msgid "% Comments"
+msgstr "% Комментари"
+
+#: content.php:21
+msgid "Leave a comment"
+msgstr "Шухăш çырас"
+
+#: content-single.php:51
+msgid "Posted in %1$s"
+msgstr "%1$s публикацийĕ"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:47
+msgid ", "
+msgstr ", "
+
+#. translators: %s: Name of current post.
+#: content-single.php:33 content.php:43
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Малалла вулас %s <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: %s: Name of current post
+#: content-page.php:31 content-single.php:21 content.php:27
+msgid "Edit %s"
+msgstr "%s редакцилес"
+
+#: content-page.php:22 content-single.php:38 content.php:48
+msgid "Pages:"
+msgstr "Страницăсем:"
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Эсир шыракан япала тупăнмасть пек туйăнать. Тен шырав туса пăхни усăллă пулĕ."
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Каçарăр та, анчах сирĕн шырав сăмахĕсене нимĕн тÿр килмерĕ. Тархасшăн, урăх сăмахсем çырса кĕртсе тепĕр хут туса пăхăр."
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ну, хатĕр-и пĕрремĕш публикаци тума? <a href=\"%1$s\">Кунта пуçлăр</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Ним тупăнмарĕ"
+
+#: content-author.php:34
+msgid "View all posts by %s"
+msgstr "%s'ăн мĕн пур постне курас"
+
+#: content-author.php:28
+msgid "Published by %s"
+msgstr "Публикацилекенĕ %s"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Комментари çырассине чарнă."
+
+#: comments.php:40 comments.php:58
+msgid "Newer Comments &rsaquo;"
+msgstr "Çĕнĕрех Комментарисем &raquo;"
+
+#: comments.php:39 comments.php:57
+msgid "&lsaquo; Older Comments"
+msgstr "&laquo; Кивĕрех Комментарисем"
+
+#: comments.php:38 comments.php:56
+msgid "Comment navigation"
+msgstr "Комментари навигацийĕ"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; çине пĕр шухăш"
+msgstr[1] "&ldquo;%2$s&rdquo; çине %1$s шухăш"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Ку вырăнта нимĕнте тупăнмарĕ пек. Тен Шырав туса пăхас?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ак тата! Ку страница тупăнмарĕ."
