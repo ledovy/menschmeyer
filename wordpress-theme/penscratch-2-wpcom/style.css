@@ -952,6 +952,7 @@ a:active {
 	padding: 14px 0 0;
 }
 .site-info {
+	width: 100%;
 	text-align: center;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -972,6 +973,9 @@ a:active {
 	clear: both;
 	height: 0;
 	margin: 0;
+}
+.site-info .right-column {
+	float: right;
 }
 
 .site-content {
@@ -1965,7 +1969,7 @@ div.sharedaddy div.sd-block {
 	.site-info {
 		line-height: 1.7;
 		float: left;
-		max-width: 60%;
+		max-width: 100%;
 		text-align: left;
 	}
 

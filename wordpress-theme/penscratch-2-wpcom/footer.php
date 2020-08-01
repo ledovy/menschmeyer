@@ -36,6 +36,7 @@
 			<?php penscratch_2_social_menu(); ?>
 			<div class="site-info">
 				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'penscratch-2' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'penscratch-2' ), 'WordPress' ); ?></a>
+				<a href="<?php echo get_page_link( get_page_by_title( 'Impressum & Disclaimer' )->ID ); ?>" rel="home" class="right-column">Impressum &amp; Disclaimer</a>
 				<span class="sep"> ~ </span>
 				<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'penscratch-2' ), 'Penscratch 2', '<a href="https://wordpress.com/themes/" rel="designer">WordPress.com</a>' ); ?>
 			</div><!-- .site-info -->
