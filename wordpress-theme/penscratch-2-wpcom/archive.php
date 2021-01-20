@@ -4,7 +4,7 @@
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package Penscratch 2
+ * @package Mensch Meyer
  */
 
 get_header(); ?>

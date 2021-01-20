@@ -1,5 +1,5 @@
-# Translation of WordPress.com - Themes - Penscratch-2 in French (France)
-# This file is distributed under the same license as the WordPress.com - Themes - Penscratch-2 package.
+# Translation of WordPress.com - Themes - Mensch-Meyer in French (France)
+# This file is distributed under the same license as the WordPress.com - Themes - Mensch-Meyer package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2018-11-09 01:23:55+0000\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: fr\n"
-"Project-Id-Version: WordPress.com - Themes - Penscratch-2\n"
+"Project-Id-Version: WordPress.com - Themes - Mensch-Meyer\n"
 
 #: functions.php:104
 msgid "White"
@@ -52,12 +52,12 @@ msgid "Links"
 msgstr "Liens"
 
 #. Template Name of the plugin/theme
-#: wp-content/themes/pub/penscratch-2/templates/full-width-page.php
+#: wp-content/themes/pub/mensch-meyer/templates/full-width-page.php
 msgid "Full Width, No Sidebar"
 msgstr "Pleine largeur, sans barre latérale"
 
 #. Description of the plugin/theme
-#: wp-content/themes/pub/penscratch-2/style.css
+#: wp-content/themes/pub/mensch-meyer/style.css
 msgid "A clean, responsive writing theme with support for custom logos, featured images, fancy pull quotes, and more."
 msgstr "Un thème d’écriture épuré et adaptable qui permet l’utilisation de logos personnalisés, d’images à la une, un format de citations chic et plus encore."
 

@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package Penscratch 2
+ * @package Mensch Meyer
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -18,7 +18,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'penscratch-2' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'mensch-meyer' ); ?></a>
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 			<?php
@@ -41,7 +41,7 @@
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><rect x="0" fill="none" width="16" height="16"/><g><path id="menu-icon" d="M0 14h16v-2H0v2zM0 2v2h16V2H0zm0 7h16V7H0v2z"/></g></svg>
-				<?php esc_html_e( 'Menu', 'penscratch-2' ); ?>
+				<?php esc_html_e( 'Menu', 'mensch-meyer' ); ?>
 			</button>
 			<?php wp_nav_menu( array( 'theme_location' => 'menu-1' ) ); ?>
 		</nav><!-- #site-navigation -->

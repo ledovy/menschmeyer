@@ -2,7 +2,7 @@
 /**
  * The Sidebar containing the main widget areas.
  *
- * @package Penscratch 2
+ * @package Mensch Meyer
  */
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	return;

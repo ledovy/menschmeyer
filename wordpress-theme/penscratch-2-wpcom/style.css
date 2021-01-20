@@ -1,13 +1,13 @@
 /*
-Theme Name: Penscratch 2
-Theme URI: https://wordpress.com/themes/penscratch-2/
+Theme Name: Mensch Meyer
+Theme URI: https://github.com/ledovy/menschmeyer
 Description: A clean, responsive writing theme with support for custom logos, featured images, fancy pull quotes, and more.
-Version: 2.0.1
+Version: 1.0.2
 Author: Automattic
 Author URI: https://wordpress.com/themes/
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: penscratch
+Text Domain: menschmeyer
 */
 
 /* =Reset
@@ -1158,7 +1158,7 @@ a:active {
 	display: inline;
 }
 
-.attachment-penscratch-2-featured {
+.attachment-mensch-meyer-featured {
 	margin: 14px 0 0;
 	-webkit-transition: all .3s ease-in-out;
 			transition: all .3s ease-in-out;
@@ -1166,7 +1166,7 @@ a:active {
 	border-radius: 3px;
 }
 
-.hentry:hover .attachment-penscratch-2-featured {
+.hentry:hover .attachment-mensch-meyer-featured {
 	-webkit-transition: all .3s ease-in-out;
 			transition: all .3s ease-in-out;
 	opacity: .7;

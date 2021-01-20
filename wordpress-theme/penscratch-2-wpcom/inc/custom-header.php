@@ -1,32 +1,32 @@
 <?php
 /**
  *
- * @package Penscratch 2
+ * @package Mensch Meyer
  */
 
 /**
  * Setup the WordPress core custom header feature.
  *
- * @uses penscratch_2_header_style()
+ * @uses mensch_meyer_header_style()
  */
-function penscratch_2_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'penscratch_2_custom_header_args', array(
+function mensch_meyer_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'mensch_meyer_custom_header_args', array(
 		'default-text-color'     => '666666',
 		'width'                  => 937,
 		'height'                 => 300,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'penscratch_2_header_style',
+		'wp-head-callback'       => 'mensch_meyer_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'penscratch_2_custom_header_setup' );
+add_action( 'after_setup_theme', 'mensch_meyer_custom_header_setup' );
 
-if ( ! function_exists( 'penscratch_2_header_style' ) ) :
+if ( ! function_exists( 'mensch_meyer_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog
  *
- * @see penscratch_2_custom_header_setup().
+ * @see mensch_meyer_custom_header_setup().
  */
-function penscratch_2_header_style() {
+function mensch_meyer_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	// If no custom options for text are set, let's bail
@@ -58,4 +58,4 @@ function penscratch_2_header_style() {
 	</style>
 	<?php
 }
-endif; // penscratch_2_header_style
+endif; // mensch_meyer_header_style

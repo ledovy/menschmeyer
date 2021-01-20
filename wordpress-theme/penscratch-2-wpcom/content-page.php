@@ -2,7 +2,7 @@
 /**
  * The template used for displaying page content in page.php
  *
- * @package Penscratch 2
+ * @package Mensch Meyer
  */
 ?>
 
@@ -12,14 +12,14 @@
 	</header><!-- .entry-header -->
 	<?php if ( has_post_thumbnail() ) : ?>
 		<div class="entry-thumbnail">
-			<?php the_post_thumbnail( 'penscratch-2-featured' ); ?>
+			<?php the_post_thumbnail( 'mensch-meyer-featured' ); ?>
 		</div>
 	<?php endif; ?>
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'penscratch-2' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'mensch-meyer' ),
 				'after'  => '</div>',
 			) );
 		?>
@@ -28,7 +28,7 @@
 		<?php edit_post_link(
 			sprintf(
 				/* translators: %s: Name of current post */
-				esc_html__( 'Edit %s', 'penscratch-2' ),
+				esc_html__( 'Edit %s', 'mensch-meyer' ),
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			),
 			'<span class="edit-link">',

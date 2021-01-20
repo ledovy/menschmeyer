@@ -4,7 +4,7 @@
  *
  * Contains the closing of the #content div and all content after
  *
- * @package Penscratch 2
+ * @package Mensch Meyer
  */
 ?>
 
@@ -33,12 +33,12 @@
 			</div><!-- .sidebar-widgets -->
 		<?php endif; ?>
 		<div class="site-info-wrapper clear">
-			<?php penscratch_2_social_menu(); ?>
+			<?php mensch_meyer_social_menu(); ?>
 			<div class="site-info">
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'penscratch-2' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'penscratch-2' ), 'WordPress' ); ?></a>
+				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'mensch-meyer' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'mensch-meyer' ), 'WordPress' ); ?></a>
 				<a href="<?php echo get_page_link( get_page_by_title( 'Impressum & Disclaimer' )->ID ); ?>" rel="home" class="right-column">Impressum &amp; Disclaimer</a>
 				<span class="sep"> ~ </span>
-				<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'penscratch-2' ), 'Penscratch 2', '<a href="https://wordpress.com/themes/" rel="designer">WordPress.com</a>' ); ?>
+				<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'mensch-meyer' ), 'Mensch Meyer', '<a href="https://wordpress.com/themes/" rel="designer">WordPress.com</a>' ); ?>
 			</div><!-- .site-info -->
 		</div><!-- .site-info-wrapper -->
 	</footer><!-- #colophon -->

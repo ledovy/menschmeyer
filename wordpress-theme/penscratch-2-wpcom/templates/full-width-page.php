@@ -2,7 +2,7 @@
 /**
  * Template Name: Full Width, No Sidebar
  *
- * @package Penscratch 2
+ * @package Mensch Meyer
  */
 
 get_header(); ?>

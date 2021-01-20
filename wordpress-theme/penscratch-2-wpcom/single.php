@@ -2,7 +2,7 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package Penscratch 2
+ * @package Mensch Meyer
  */
 
 get_header(); ?>
@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php the_post_navigation( array( 'prev_text' => '<span class="meta-nav">' . esc_html__( '&lsaquo; Previous', 'penscratch-2' ) . '</span>%title', 'next_text' => '<span class="meta-nav">' . esc_html__( 'Next &rsaquo;', 'penscratch-2' ) . '</span>%title' ) ); ?>
+			<?php the_post_navigation( array( 'prev_text' => '<span class="meta-nav">' . esc_html__( '&lsaquo; Previous', 'mensch-meyer' ) . '</span>%title', 'next_text' => '<span class="meta-nav">' . esc_html__( 'Next &rsaquo;', 'mensch-meyer' ) . '</span>%title' ) ); ?>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template

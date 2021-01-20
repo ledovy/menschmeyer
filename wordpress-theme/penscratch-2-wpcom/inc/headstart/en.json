@@ -2,7 +2,7 @@
     "settings": {
         "options": {
             "show_on_front": "posts",
-            "stylesheet": "pub\/penscratch-2",
+            "stylesheet": "pub\/mensch-meyer",
             "featured-content": false
         },
         "theme_mods": {
@@ -10,7 +10,7 @@
             "nav_menu_locations": {
                 "menu-1": "primary"
             },
-            "custom_logo": "https:\/\/penscratch2demo.files.wordpress.com\/2014\/10\/logo.png"
+            "custom_logo": "https:\/\/menschmeyerdemo.files.wordpress.com\/2014\/10\/logo.png"
         },
         "headstart": {
             "mapped_id_options": [],

@@ -7,7 +7,7 @@
  * and that other 'pages' on your WordPress site will use a
  * different template.
  *
- * @package Penscratch 2
+ * @package Mensch Meyer
  */
 
 get_header(); ?>

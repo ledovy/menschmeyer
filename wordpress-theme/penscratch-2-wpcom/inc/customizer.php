@@ -1,8 +1,8 @@
 <?php
 /**
- * Penscratch 2 Theme Customizer
+ * Mensch Meyer Theme Customizer
  *
- * @package Penscratch 2
+ * @package Mensch Meyer
  */
 
 /**
@@ -10,17 +10,17 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function penscratch_2_customize_register( $wp_customize ) {
+function mensch_meyer_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
 }
-add_action( 'customize_register', 'penscratch_2_customize_register' );
+add_action( 'customize_register', 'mensch_meyer_customize_register' );
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function penscratch_2_customize_preview_js() {
-	wp_enqueue_script( 'penscratch-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20130508', true );
+function mensch_meyer_customize_preview_js() {
+	wp_enqueue_script( 'menschmeyer-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20130508', true );
 }
-add_action( 'customize_preview_init', 'penscratch_2_customize_preview_js' );
+add_action( 'customize_preview_init', 'mensch_meyer_customize_preview_js' );

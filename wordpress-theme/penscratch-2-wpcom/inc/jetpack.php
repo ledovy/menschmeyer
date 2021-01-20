@@ -3,13 +3,13 @@
  * Jetpack Compatibility File
  * See: http://jetpack.com/
  *
- * @package Penscratch 2
+ * @package Mensch Meyer
  */
 
 /**
  * Jetpack Setup.
  */
-function penscratch_2_jetpack_setup() {
+function mensch_meyer_jetpack_setup() {
 	// Add theme support for Infinite Scroll.
 	add_theme_support( 'infinite-scroll', array(
 		'container'      => 'main',
@@ -27,7 +27,7 @@ function penscratch_2_jetpack_setup() {
 		'blog-display'    => 'content',
 		'author-bio'      => true,
 		'post-details'    => array(
-			'stylesheet'  => 'penscratch-2-style',
+			'stylesheet'  => 'mensch-meyer-style',
 			'date'        => '.posted-on, .byline .sep, body:not(.group-blog):not(.single) .byline + .sep',
 			'categories'  => '.cat-links',
 			'tags'        => '.tags-links',
@@ -42,12 +42,12 @@ function penscratch_2_jetpack_setup() {
 		),
 	) );
 }
-add_action( 'after_setup_theme', 'penscratch_2_jetpack_setup' );
+add_action( 'after_setup_theme', 'mensch_meyer_jetpack_setup' );
 
 // Turn off infinite scroll if mobile + sidebar, or if social menu is active
-if ( function_exists( 'jetpack_is_mobile' ) && ! function_exists( 'penscratch_2_has_footer_widgets' ) ) {
+if ( function_exists( 'jetpack_is_mobile' ) && ! function_exists( 'mensch_meyer_has_footer_widgets' ) ) {
 
-    function penscratch_2_has_footer_widgets() {
+    function mensch_meyer_has_footer_widgets() {
         if ( is_active_sidebar( 'sidebar-2' ) || is_active_sidebar( 'sidebar-3' ) || is_active_sidebar( 'sidebar-4' ) || has_nav_menu( 'jetpack-social-navigation' ) ||  ( ( jetpack_is_mobile( '', true ) && is_active_sidebar( 'sidebar-1' ) ) ) )
             return true;
 
@@ -55,12 +55,12 @@ if ( function_exists( 'jetpack_is_mobile' ) && ! function_exists( 'penscratch_2_
     }
 
 } //endif
-add_filter( 'infinite_scroll_has_footer_widgets', 'penscratch_2_has_footer_widgets' );
+add_filter( 'infinite_scroll_has_footer_widgets', 'mensch_meyer_has_footer_widgets' );
 
 /**
  * Return early if Social Menu is not available.
  */
-function penscratch_2_social_menu() {
+function mensch_meyer_social_menu() {
 	if ( ! function_exists( 'jetpack_social_menu' ) ) {
 		return;
 	} else {
@@ -71,7 +71,7 @@ function penscratch_2_social_menu() {
 /**
  * Return early if Author Bio is not available.
  */
-function penscratch_2_author_bio() {
+function mensch_meyer_author_bio() {
 	if ( ! function_exists( 'jetpack_author_bio' ) ) {
 		get_template_part( 'content', 'author' );
 	} else {
@@ -82,16 +82,16 @@ function penscratch_2_author_bio() {
 /**
  * Author Bio Avatar Size.
  */
-function penscratch_2_author_bio_avatar_size() {
+function mensch_meyer_author_bio_avatar_size() {
 	return 60;
 }
-add_filter( 'jetpack_author_bio_avatar_size', 'penscratch_2_author_bio_avatar_size' );
+add_filter( 'jetpack_author_bio_avatar_size', 'mensch_meyer_author_bio_avatar_size' );
 
 /**
  * Custom function to check for a post thumbnail;
  * If Jetpack is not available, fall back to has_post_thumbnail()
  */
-function penscratch_2_has_post_thumbnail( $post = null ) {
+function mensch_meyer_has_post_thumbnail( $post = null ) {
 	if ( function_exists( 'jetpack_has_featured_image' ) ) {
 		return jetpack_has_featured_image( $post );
 	} else {
